@@ -1,7 +1,7 @@
 # JOYLEDPAINT
 Raspberry Pi Pico Joystick 8x8 WS2812 Paint App
 
-needs pico_ws2812b library by benevpi:
+needs pico_ws2812b library by benevpi (https://github.com/benevpi):
 https://github.com/benevpi/pico_python_ws2812b
 
 Simple paint app for a 64 pixel 8x8 led matrix
