@@ -8,7 +8,7 @@
 #                                                  #
 #  2021 by signheim                                #
 #                                                  #
-#  Includes pico_ws2812b library by benevpi:       #
+#  Needs pico_ws2812b library by benevpi:          #
 #  https://github.com/benevpi/pico_python_ws2812b  #
 #                                                  #
 ####################################################
@@ -133,3 +133,4 @@ while True:
     
     # update the LED matrix, all older activated pixels will stay activated
     matrix.show()
+    
