@@ -67,7 +67,7 @@ while True:
     matrix.set_pixel(cPix, cols[cCol][0] * dim, cols[cCol][1] * dim, cols[cCol][2] * dim)
     
     # reset all moving instructions
-    pixMove = 0;
+    pixMove = 0
     
     # calculate how much to joystick was moved horizontally and vertically
     # the thresholds are a desision after testing this particular joystick
@@ -117,7 +117,7 @@ while True:
         bTime = 0
             
     # the movement is now added to the current pixel
-    cPix += pixMove;
+    cPix += pixMove
     
     # if the last color in the cols array is selected the current pixel
     # will blink to indicate that it's color is not a drawing color
